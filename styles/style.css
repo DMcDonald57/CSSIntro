@@ -1,5 +1,66 @@
-p{ 
-    color: red;
+html{
+    background-color:deepskyblue;
+}
+
+p{ color: red;
     font-size: 20px;
     font-family: monospace;
 }
+
+iframe{
+    width: 560px;
+    height: 315px;
+}
+
+.italic_text{ 
+    font-style: italic;
+}
+
+#logo{
+height: 150px;
+}
+
+img{
+    height: 650px;
+}
+
+nav > a {
+    background-color: darkgrey;
+}
+
+a{ 
+    text-decoration: none;
+}
+
+h1,h2,section > p{
+    background-color: blueviolet;
+    color: white;
+}
+
+img + p{
+    border-width: 2px;
+    border-color: bisque;
+    border-style: solid;
+}
+
+p:hover{
+    color: darkgoldenrod;
+    border: dashed 3px lime;
+}
+
+p:active{
+    font size: 30px;
+}
+
+img:active{
+    height: 400px;
+}
+
+a:link{
+    color: darkmagenta;
+}
+
+a:visited{
+color: black;
+}
+
